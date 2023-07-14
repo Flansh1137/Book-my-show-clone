@@ -1,32 +1,30 @@
-# Book-my-show-clone
+# almabetter-book-my-show-backend
+This is a demo of real bookmyshow, where the user can book a movie with specified seats at a specified slot and get a confirmation that, wheteher booking was sucessful or not.
 
+The movie booked by the user will be stored in database and is retrived and shown to the user.
+there are 2 folders in the repo one is of frontend and the other is of backend handling the server
 
-## Features
+after cloning both the repo node modules are to be installed seperately for both the frontend and backend both frontend and backend are running on the seperate ports which are 3000 and 8080 respectively
 
-- Browse and search for movies, events, and shows
-- View details about movies, events, and shows including trailers, descriptions, and timings
-- Book tickets for preferred shows and seats
-- User registration and authentication
-- User reviews and ratings for movies, events, and shows
-- User-friendly and responsive design
+the front end contains the ui part handling the fetching and posting of the data collected on the client side further the work is handled by the server which into the database establishes a connection with it and gives us the response according to it which has to be displayed by the frontend.
 
-- ## Setup
+just type npm install in the respective folders to install the node packages necessary for the app to run and youre good to go!
+This backend it built on top of Node.js where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.
 
-1. Clone the repository:
-2. Install the dependencies:
-3. npm install
-   Set up the environment variables:
-   - Rename `.env.example` to `.env`
-   - Replace the values in `.env` with your own configuration
+Technologies used
+Express.
 
-4. npm start
-   Start the development server:
-   Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the website.
+To Create Server.
 
-## Contributing
+MongoDB.
 
-Contributions are welcome! If you find any bugs or want to suggest new features, please open an issue or submit a pull request.
+To store and retrive the data of the user.
 
-## License
+Usage
+It takes the user data from the Front-end and uses Mongo DB Atlas to store the data recieved and fetches the data back from the database to show the user that the operation was successfully completed.
+Thank You
 
-[MIT License](LICENSE)
+contributer 
+Gaurav Raj,
+Irfas Hussain,
+Flansh Gajbhiye
