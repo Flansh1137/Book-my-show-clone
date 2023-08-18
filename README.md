@@ -1,24 +1,27 @@
-Resume Builder 📄
-This app helps you to build your resume with some of the choosen templates, you can even customise your resume based on your requirements.
-Hosted Website: https://resume-builder-gules.vercel.app/
+Bookmyshow - Backend
+This backend it built on top of Node.js where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.
 
-### `npm start`
+Technologies used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Express.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To Create Server.
 
-### `npm test`
+2. MongoDB.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To store and retrive the data of the user.
 
-Technologies that are used in this project.
-1. React
-2. Material UI, for UI
-3. JSpdf, for downloading resume.
-4. Redux, for state management.
-5. React-avatar-edit, for selecting profile image for resume.
-6. React-router-dom, for routing.
+Usage
+It takes the user data from the Front-end and uses Mongo DB Atlas to store the data recieved and fetches the data back from the database to show the user that the operation was successfully completed.
+
+End points
+Post url/api/booking
+
+This is a post request endpoint which is used to store the booking details of the user.
+
+Get url/api/booking
+
+This is a get request endpoint which is used to get the last booking deatils of user.
+
+Contributions are always welcome!
+Thank You !
